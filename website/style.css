@@ -50,13 +50,13 @@ table {
 .sidebar {
 
     height: 100%; /* Full-height: remove this if you want "auto" height */
-  width: 200px; /* Set the width of the sidebar */
-  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-  z-index: 1; /* Stay on top */
-  top: 280; /* Stay at the top */
-  left: 0;
-  background-color: #6a6868; /* Black */
-  overflow-x: hidden; /* Disable horizontal scroll */
+    width: 200px; /* Set the width of the sidebar */
+    position: absolute; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 280; /* Stay at the top */
+    left: 0;
+    background-color: #6a6868; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
 }
 .sidebar a {
     font-size: 22px;
